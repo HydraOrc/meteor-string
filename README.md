@@ -13,5 +13,5 @@ sanitizeString(' Test  %20  TEST   '); // => 'test test'
 ```
 import { escapeRegExp } from 'meteor/hydraorc:string';
 
-escapeRegExp(/*?/); // => /\*\?/
+escapeRegExp('*?'); // => \*\?
 ```
